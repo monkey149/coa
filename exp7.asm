@@ -1,3 +1,6 @@
+; EXP7. Analyze the functions of INT 10H video interrupts for cursor manipulation, such
+; as reshaping the cursor.
+
 .model small
 .stack 100h
 .data
@@ -38,4 +41,12 @@ exit_program:
 mov ah,4ch
 int 21h
 end main
+
+; How to run!!!!!!!!! 
+; mount c (location of your folder)
+; c:
+; cd 8086
+; masm exp7.asm (fir teen baar enter karo)
+; link exp7.obj (fir teen baar enter karo)
+; exp7.exe
 
