@@ -34,7 +34,7 @@ END MAIN
 ; c:
 ; cd 8086
 ; masm exp1.asm (fir teen baar enter karo)
-; link exp1.obj (fir teen baar clicl karo)
+; link exp1.obj (fir teen baar enter karo)
 ; debug exp1.exe
 ; t
 ; t
