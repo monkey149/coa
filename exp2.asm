@@ -26,7 +26,7 @@ END START
 ; c:
 ; cd 8086
 ; masm exp2.asm (fir teen baar enter karo)
-; link exp2.obj (fir teen baar click karo, warning aayegi lekin aage badho)
+; link exp2.obj (fir teen baar enter karo, warning aayegi lekin aage badho)
 ; TD exp2.exe
 ; "Run" click karo ya "f9" (mostly f9 hi karo)
 ; view -> another -> dump
