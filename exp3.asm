@@ -1,3 +1,5 @@
+;EXP3.: Aim: Implementation of number conversion HEX to BCD using MASM
+
 DATA SEGMENT
 X DB 0C2H
     DB 100 DUP(00)
@@ -20,3 +22,14 @@ REPEAT: DIV CL
     INT 3H
 CODE ENDS
 END START
+
+; How to run!!!!!!!!! 
+; mount c (location of your folder)
+; c:
+; cd 8086
+; masm exp3.asm (fir teen baar enter karo)
+; link exp3.obj (fir teen baar enter karo, warning aayegi lekin aage badho)
+; TD exp3.exe
+; "Run" click karo ya "f9" (mostly f9 hi karo)
+; view -> another -> dump
+
