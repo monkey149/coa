@@ -25,3 +25,15 @@ MAIN PROC
 	INT 21H
 MAIN ENDP
 END MAIN
+
+; How to run!!!!!!!!! 
+; mount c (location of your folder)
+; c:
+; cd 8086
+; masm exp1.asm (fir teen baar enter karo)
+; link exp1.obj
+; debug exp1.exe
+; t
+; t
+; t
+; t
