@@ -1,3 +1,6 @@
+;Exp-1: : Implementation of 8 bit ALU operations (ADD, SUB, AND) through assembly
+;language programming for 8086 using MASM and Debug
+
 .MODEL SMALL
 .STACK 100H
 .DATA
